@@ -1,4 +1,13 @@
 # Marlin 3D Printer Firmware
+Marlin Firmware for Ender 3 Pro
+
+Features:
+
+* BLTouch
+* Linear Advance
+
+* Dual Extruders
+* Dual Z
 
 ![GitHub](https://img.shields.io/github/license/marlinfirmware/marlin.svg)
 ![GitHub contributors](https://img.shields.io/github/contributors/marlinfirmware/marlin.svg)
