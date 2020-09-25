@@ -1,7 +1,7 @@
 # Marlin 3D Printer Firmware
 Marlin Firmware for Ender 3 Pro using SKR v1.4 Turbo
 
-Started with this [guide(https://www.reddit.com/r/ender3/comments/hymv70/marlin_20x_guide_skr_mini_e3_v12_ender_3/)]
+Started with this [guide](https://www.reddit.com/r/ender3/comments/hymv70/marlin_20x_guide_skr_mini_e3_v12_ender_3/)
 
 Build:
 * SKR Mini E3 v1.2 (embedded TMC 2209s)
@@ -30,7 +30,7 @@ Features:
 Libraries:
 Adafruit Neopixels
 
-[Calibration guide(https://teachingtechyt.github.io/calibration.html)] from Teaching Tech
+[Calibration guide](https://teachingtechyt.github.io/calibration.html) from Teaching Tech
 
 ![GitHub](https://img.shields.io/github/license/marlinfirmware/marlin.svg)
 ![GitHub contributors](https://img.shields.io/github/contributors/marlinfirmware/marlin.svg)
