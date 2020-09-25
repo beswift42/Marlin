@@ -4,7 +4,7 @@ Marlin Firmware for Ender 3 Pro using SKR v1.4 Turbo
 Started with this [guide](https://www.reddit.com/r/ender3/comments/hymv70/marlin_20x_guide_skr_mini_e3_v12_ender_3/)
 
 Build:
-* SKR Mini E3 v1.2 (embedded TMC 2209s)
+* SKR Turbo 1.4 with drop in TMC2209s (LPC1769 ARM Cortex M3)
 * BLTouch
 * Dual Extruders
   - Microswiss Hotend and Direct Drive Extruder
@@ -14,7 +14,8 @@ Build:
 * 4020 Hotend cooling fan
 * Glass bed
 * Neopixel 12 LED Ring and RPi Camera
-* Touchscreen?
+* Touchscreen? Not sure if this is possible or not. We'll see!
+* Filament Runout Sensor
 
 Features:
 * Custom Bootscreen/Status Screen
