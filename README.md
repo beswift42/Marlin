@@ -1,5 +1,34 @@
 # Marlin 3D Printer Firmware
 
+Marlin Firmware for Ender 3 Pro with SKR Mini E3 v1.2
+
+Started with this [guide(https://www.reddit.com/r/ender3/comments/hymv70/marlin_20x_guide_skr_mini_e3_v12_ender_3/)]
+
+Build:
+* SKR Mini E3 v1.2 (embedded TMC 2209s)
+* BLTouch
+* Microswiss Hotend and Direct Drive Extruder
+* Dual 5015 Part cooling fans on a Hero Me Remix
+* 4020 Hotend cooling fan
+* Glass bed
+* Neopixel 12 LED Ring and RPi Camera
+
+Features:
+* Custom Bootscreen/Status Screen
+* 250000 Baudrate
+* PID Autotune
+* Linear Adance (disabling s-curve/jerk)
+* Nozzle Park
+* SD Support
+* Hotend Idle Timeout
+* Working Progress Display
+* Autobed Leveling (I can't live without it)
+
+Libraries:
+Adafruit Neopixels
+
+[Calibration guide(https://teachingtechyt.github.io/calibration.html)] from Teaching Tech
+
 ![GitHub](https://img.shields.io/github/license/marlinfirmware/marlin.svg)
 ![GitHub contributors](https://img.shields.io/github/contributors/marlinfirmware/marlin.svg)
 ![GitHub Release Date](https://img.shields.io/github/release-date/marlinfirmware/marlin.svg)
