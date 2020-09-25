@@ -1,13 +1,22 @@
 # Marlin 3D Printer Firmware
-Marlin Firmware for Ender 3 Pro
+Marlin Firmware for Ender 3 Pro using SKR v1.4 Turbo
+
+Build:
+* BLTouch
+* Dual Extruders
+  - Microswiss Hotend and Direct Drive Extruder
+  - MK8 Creality Hotend and Bowden Drive with Aluminum Extruder
+* Dual Z Motors
 
 Features:
-
-* BLTouch
+* Neopixel support enabled (12 LED ring in this case)
 * Linear Advance
+* M502? Random code that's "off" to save EEPROM...
+* LCD Touchscreen?
 
-* Dual Extruders
-* Dual Z
+Using
+
+* Neopixel Repo from: (insert project...)
 
 ![GitHub](https://img.shields.io/github/license/marlinfirmware/marlin.svg)
 ![GitHub contributors](https://img.shields.io/github/contributors/marlinfirmware/marlin.svg)
