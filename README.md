@@ -15,6 +15,7 @@ Build:
 
 Features:
 * Custom Bootscreen/Status Screen
+* Baby Stepping the Z for easier z-offset/first layer calibration - with double click
 * 250000 Baudrate
 * PID Autotune
 * Linear Adance (disabling s-curve/jerk)
