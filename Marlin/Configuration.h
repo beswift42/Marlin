@@ -505,9 +505,9 @@
   //#define DEFAULT_Kd 440
 
   // Micro Swiss All Metal Hotend
-  #define DEFAULT_Kp 42.42
-  #define DEFAULT_Ki 5.29
-  #define DEFAULT_Kd 85.02
+ #define DEFAULT_Kp 42.87
+ #define DEFAULT_Ki 5.29
+ #define DEFAULT_Kd 86.79
 
 #endif // PIDTEMP
 
@@ -550,10 +550,10 @@
   //#define DEFAULT_bedKi .023
   //#define DEFAULT_bedKd 305.4
 
-  //Glass Bed
-  #define DEFAULT_bedKp 99.07
-  #define DEFAULT_bedKi 19.01
-  #define DEFAULT_bedKd 344.21
+  //Glass Bed - Borosilicate
+  #define DEFAULT_bedKp 85.01
+  #define DEFAULT_bedKi 14.14
+  #define DEFAULT_bedKd 340.75
 
   //120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from pidautotune
@@ -1010,7 +1010,7 @@
 #define PROBING_MARGIN 10
 
 // X and Y axis travel speed (mm/min) between probes
-#define XY_PROBE_SPEED (133*60)
+#define XY_PROBE_SPEED 10000
 
 // Feedrate (mm/min) for the first approach when double-probing (MULTIPLE_PROBING == 2)
 #define Z_PROBE_SPEED_FAST HOMING_FEEDRATE_Z
@@ -1148,7 +1148,7 @@
 #define Z_MIN_POS 0
 #define X_MAX_POS X_BED_SIZE
 #define Y_MAX_POS Y_BED_SIZE
-#define Z_MAX_POS 220
+#define Z_MAX_POS 220 //cutting the z off a little so I don't break anything accidentally
 
 /**
  * Software Endstops
